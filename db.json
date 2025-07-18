@@ -1,0 +1,60 @@
+{
+  "transactions": [
+    {
+      "id": "4dc3",
+      "description": "Medical",
+      "amount": 1500,
+      "type": "expense",
+      "category": "Self",
+      "date": "2025-07-10"
+    },
+    {
+      "id": "73ad",
+      "description": "Rent",
+      "amount": 7000,
+      "type": "income",
+      "category": "Plot_10",
+      "date": "2025-07-08"
+    },
+    {
+      "id": "9ca5",
+      "description": "salary",
+      "amount": 20000,
+      "type": "income",
+      "category": "job",
+      "date": "2025-07-01"
+    },
+    {
+      "id": "f94c",
+      "description": "Buying clothes",
+      "amount": 3000,
+      "type": "expense",
+      "category": "self",
+      "date": "2025-07-12"
+    },
+    {
+      "id": "3ac4",
+      "description": "Business",
+      "amount": 15000,
+      "type": "income",
+      "category": "Car hire",
+      "date": "2025-07-15"
+    },
+    {
+      "id": "b1a4",
+      "description": "Bodaa Business",
+      "amount": 10000,
+      "type": "income",
+      "category": "Business",
+      "date": "2025-07-16"
+    },
+    {
+      "id": "6573",
+      "description": "Food",
+      "amount": 1000,
+      "type": "expense",
+      "category": "Meals",
+      "date": "2025-07-15"
+    }
+  ]
+}

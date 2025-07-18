@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Define the language of the page as English -->
+<head>
+    <meta charset="UTF-8"> <!-- Set the character encoding to UTF-8 -->
+    <title>Personal Budget Tracker</title> <!-- Title shown in the browser tab -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
+</head>
+<body> <!-- Start of the main body of the HTML document -->
+
+    <h1>Personal Budget Tracker</h1> <!-- Main heading of the app -->
+
+    <!-- Section to display the summary of budget: income, expenses, balance -->
+    <section id="summary">
+        <p>Total Income: KES <span id="total-income">0</span></p> <!-- Show total income -->
+        <p>Total Expenses: KES <span id="total-expenses">0</span></p> <!-- Show total expenses -->
+        <p>Balance: KES <span id="balance">0</span></p> <!-- Show balance (income - expenses) -->
+    </section>
+
+    <!-- Form to add a new transaction -->
+    <form id="transaction-form">
+        <input type="text" id="description" placeholder="Description" required> <!-- Input for transaction description -->
+        <input type="number" id="amount" placeholder="Amount" required> <!-- Input for transaction amount -->
+
+        <!-- Dropdown to select the transaction type -->
+        <select id="type">
+            <option value="income">Income</option> <!-- Income option -->
+            <option value="expense">Expense</option> <!-- Expense option -->
+        </select>
+
+        <input type="text" id="category" placeholder="Category" required> <!-- Input for transaction category -->
+        <input type="date" id="date" required> <!-- Input for transaction date -->
+
+        <button type="submit">Add Transaction</button> <!-- Submit button to add transaction -->
+    </form>
+
+    <!-- Input box to search transactions by description -->
+    <input type="text" id="search" placeholder="Search transactions...">
+
+    <!-- Dropdown to filter transactions by type -->
+    <select id="filter-type">
+        <option value="all">All</option> <!-- Show all transactions -->
+        <option value="income">Income</option> <!-- Show only income transactions -->
+        <option value="expense">Expense</option> <!-- Show only expense transactions -->
+    </select>
+
+    <!-- Unordered list to display transactions -->
+    <ul id="transaction-list"></ul>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html> <!-- End of the HTML document -->
